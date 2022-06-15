@@ -33,7 +33,6 @@ const DetailsHeader = ({ data, navigation }) => (
     />
     <CircleButton
       imgUrl={assets.heart}
-      handlePress={() => navigation.goBack()}
       right={15}
       top={StatusBar.currentHeight + 10}
     />
@@ -84,7 +83,7 @@ const Details = ({ route, navigation }) => {
                     color: COLORS.primary,
                   }}
                 >
-                  Current Bid
+                  Current Bids
                 </Text>
               )}
             </View>
